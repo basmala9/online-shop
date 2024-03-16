@@ -1,0 +1,56 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    background-color: rgba(250, 197, 241, 0.76);
+}
+
+.header {
+    display: flex;
+    padding: 50px;
+    align-items: center;
+    background-color: rgba(250, 197, 241, 0.76);
+}
+
+.logo {
+    height: 25px;
+
+}
+
+.links {
+    flex: 1;
+    justify-content: flex-end;
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: #000;
+}
+
+.link:hover {
+    background-color: rgba(233, 141, 195, 0.692);
+}
+.perant{
+    display: flex;
+    flex: 1;
+    padding: 0px 50px;
+    gap: 40px;
+   
+}
+.line1{
+    font-size: 18px;
+}
+.add{
+    display:flex ;
+    flex-direction: column;
+    gap: 6px;
+
+}
+.insta{
+    text-decoration: none;
+    color: #000;
+}
